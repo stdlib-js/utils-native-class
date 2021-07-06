@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-native-class",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Determine the specification defined classification of an object.",
   "license": "Apache-2.0",
   "author": {
