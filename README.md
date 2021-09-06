@@ -238,6 +238,13 @@ str = nativeClass( new Person() );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/constructor-name`][@stdlib/utils/constructor-name]: determine the name of a value's constructor.
+-   [`@stdlib/utils/type-of`][@stdlib/utils/type-of]: determine a value's type.
+
 </section>
 
 <!-- /.related -->
@@ -302,6 +309,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [object-to-string]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
 
 [mdn-symbol-tostringtag]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag
+
+<!-- <related-links> -->
+
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
+
+[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of
+
+<!-- </related-links> -->
 
 </section>
 
