@@ -1,0 +1,46 @@
+{
+  "name": "@stdlib/utils-native-class",
+  "version": "0.0.0",
+  "description": "Determine the specification defined classification of an object.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/utils-native-class.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdutils",
+    "stdutil",
+    "utilities",
+    "utility",
+    "utils",
+    "util",
+    "type",
+    "typeof",
+    "native",
+    "class",
+    "classification",
+    "specification",
+    "spec",
+    "ecmascript",
+    "ecma",
+    "internal",
+    "tostring",
+    "object",
+    "built-in",
+    "builtin",
+    "is",
+    "istype",
+    "check"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
