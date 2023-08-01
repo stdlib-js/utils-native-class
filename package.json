@@ -3,31 +3,7 @@
   "version": "0.0.8",
   "description": "Determine the specification defined classification of an object.",
   "license": "Apache-2.0",
-  "author": {
-    "name": "The Stdlib Authors",
-    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-  },
-  "contributors": [
-    {
-      "name": "The Stdlib Authors",
-      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
-    }
-  ],
-  "main": "./lib",
-  "directories": {
-    "benchmark": "./benchmark",
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
+  "main": "./index.js",
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -36,53 +12,6 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {
-    "@stdlib/assert-has-own-property": "^0.0.7",
-    "@stdlib/assert-has-tostringtag-support": "^0.0.9",
-    "@stdlib/symbol-ctor": "^0.0.7",
-    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
-  },
-  "devDependencies": {
-    "@stdlib/array-buffer": "^0.0.6",
-    "@stdlib/array-float32": "^0.0.6",
-    "@stdlib/array-float64": "^0.0.6",
-    "@stdlib/array-int16": "^0.0.6",
-    "@stdlib/array-int32": "^0.0.6",
-    "@stdlib/array-int8": "^0.0.6",
-    "@stdlib/array-uint16": "^0.0.6",
-    "@stdlib/array-uint32": "^0.0.6",
-    "@stdlib/array-uint8": "^0.0.7",
-    "@stdlib/array-uint8c": "^0.0.8",
-    "@stdlib/assert-has-map-support": "^0.0.8",
-    "@stdlib/assert-has-set-support": "^0.0.8",
-    "@stdlib/assert-has-symbol-support": "^0.0.8",
-    "@stdlib/assert-has-weakmap-support": "^0.0.8",
-    "@stdlib/assert-has-weakset-support": "^0.0.8",
-    "@stdlib/assert-is-string": "^0.0.8",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/boolean-ctor": "^0.0.1",
-    "@stdlib/number-ctor": "^0.0.7",
-    "@stdlib/utils-define-read-only-property": "^0.0.8",
-    "proxyquire": "^2.0.0",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
-    "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdutils",
