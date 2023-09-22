@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-nativeClass = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@umd/browser.js' )
+nativeClass = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var nativeClass = require( 'path/to/vendor/umd/utils-native-class/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -143,7 +143,7 @@ str = nativeClass( new Beep() );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
