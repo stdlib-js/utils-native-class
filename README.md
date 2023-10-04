@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@esm/index.mjs';
+import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.1.1-esm/index.mjs';
 ```
 
 #### nativeClass( value )
@@ -121,7 +121,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@esm/index.mjs';
+import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.1.1-esm/index.mjs';
 
 var str = nativeClass( 'a' );
 // returns '[object String]'
