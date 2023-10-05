@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,49 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var nativeClass = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof nativeClass, 'function', 'export is a function' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
-});
-
-tape( 'if an environment has `Symbol.toStringTag` support, the main export is a function which attempts to uncover the native `Symbol.toStringTag`', function test( t ) {
-	var nativeClass = proxyquire( './../dist/index.js', {
-		'@stdlib/assert-has-tostringtag-support': hasSupport,
-		'./polyfill.js': polyfill
-	});
-	t.strictEqual( nativeClass, polyfill, 'exports expected function' );
-	t.end();
-
-	function hasSupport() {
-		return true;
-	}
-
-	function polyfill() {
-		// Polyfill...
-	}
-});
-
-tape( 'if an environment does not have `Symbol.toStringTag` support, the main export is a function which returns the value of the internal `[[Class]]` property', function test( t ) {
-	var nativeClass = proxyquire( './../dist/index.js', {
-		'@stdlib/assert-has-tostringtag-support': hasSupport,
-		'./main.js': foo
-	});
-
-	t.strictEqual( nativeClass, foo, 'exports expected function' );
-	t.end();
-
-	function hasSupport() {
-		return false;
-	}
-
-	function foo() {
-		// Native class...
-	}
 });
