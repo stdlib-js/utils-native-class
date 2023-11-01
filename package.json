@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.1.1",
     "@stdlib/assert-has-tostringtag-support": "^0.1.1",
-    "@stdlib/symbol-ctor": "^0.1.1"
+    "@stdlib/symbol-ctor": "^0.1.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.1.0",
