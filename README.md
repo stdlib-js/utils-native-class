@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-native-class/tags). For example,
+
+```javascript
 import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.2.0-esm/index.mjs';
 ```
 
@@ -121,7 +126,7 @@ import Uint16Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint16@esm/
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
 import Symbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-ctor@esm/index.mjs';
-import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@v0.2.0-esm/index.mjs';
+import nativeClass from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-native-class@esm/index.mjs';
 
 var str = nativeClass( 'a' );
 // returns '[object String]'
