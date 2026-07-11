@@ -1,11 +1,11 @@
-"use strict";var i=function(r,t){return function(){return t||r((t={exports:{}}).exports,t),t.exports}};var a=i(function(P,l){
+"use strict";var a=function(r,t){return function(){try{return t||r((t={exports:{}}).exports,t),t.exports}catch(i){throw (t=0, i)}};};var o=a(function(P,l){
 var x=Object.prototype.toString;l.exports=x
-});var p=i(function(k,c){
-var y=a();function T(r){return y.call(r)}c.exports=T
-});var S=i(function(z,v){
+});var p=a(function(k,c){
+var y=o();function T(r){return y.call(r)}c.exports=T
+});var S=a(function(z,v){
 var g=require('@stdlib/symbol-ctor/dist'),b=typeof g=="function"?g.toStringTag:"";v.exports=b
-});var q=i(function(A,f){
-var d=require('@stdlib/assert-has-own-property/dist'),e=S(),o=a();function h(r){var t,u,n;if(r==null)return o.call(r);u=r[e],t=d(r,e);try{r[e]=void 0}catch(C){return o.call(r)}return n=o.call(r),t?r[e]=u:delete r[e],n}f.exports=h
-});var O=require('@stdlib/assert-has-tostringtag-support/dist'),m=p(),w=q(),s;O()?s=w:s=m;module.exports=s;
+});var q=a(function(A,f){
+var d=require('@stdlib/assert-has-own-property/dist'),e=S(),s=o();function h(r){var t,i,n;if(r==null)return s.call(r);i=r[e],t=d(r,e);try{r[e]=void 0}catch(C){return s.call(r)}return n=s.call(r),t?r[e]=i:delete r[e],n}f.exports=h
+});var O=require('@stdlib/assert-has-tostringtag-support/dist'),m=p(),w=q(),u;O()?u=w:u=m;module.exports=u;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
